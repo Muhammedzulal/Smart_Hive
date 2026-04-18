@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:gravity="center_vertical"
+        android:background="?android:attr/selectableItemBackground"> <ImageView
+        android:id="@+id/imgKovanIcon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/ic_launcher_background"
+        android:backgroundTint="#191919"
+        android:src="@android:drawable/ic_menu_more"
+        app:tint="#FFD300" />
+
+    <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginStart="16dp">
+
+        <TextView
+                android:id="@+id/tvKovanAdi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kovan #1"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        <TextView
+                android:id="@+id/tvKovanDurumu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="Durum: Sağlıklı"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp" />
+    </LinearLayout>
+
+    <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@android:drawable/ic_menu_send"
+            app:tint="#D0D0D0" />
+
+</LinearLayout>

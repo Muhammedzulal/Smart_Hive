@@ -97,7 +97,7 @@
                         android:textColor="#FF8F00"
                         android:textSize="28sp"
                         android:textStyle="bold"
-                        android:text="42" />
+                        android:text="20" />
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
 
