@@ -22,7 +22,7 @@ public class LoginMenu extends AppCompatActivity {
     }
 
     public void btnGiris(View view) {
-      if(loginTxtBox.getText().toString().equals("1234")) {
+      if(loginTxtBox.getText().toString().equals("0123456789")) {
           Intent intent = new Intent(this, ProfileMenu.class);
           startActivity(intent);
       }

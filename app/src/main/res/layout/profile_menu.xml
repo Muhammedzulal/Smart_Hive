@@ -22,14 +22,13 @@
 
         <ImageView
                 android:id="@+id/imgProfile"
-                android:layout_width="80dp"
-                android:layout_height="80dp"
+                android:layout_width="126dp"
+                android:layout_height="116dp"
                 android:layout_gravity="center"
-                android:background="@drawable/ic_launcher_background"
-                android:backgroundTint="#FFFFFF"
+                android:background="@null"
+                android:scaleType="centerCrop"
                 android:contentDescription="Profil Resmi"
-                app:srcCompat="@android:drawable/ic_menu_myplaces"
-                app:tint="#FFB300" />
+                app:srcCompat="@drawable/profilepic" />
 
         <TextView
                 android:id="@+id/tvUserName"
@@ -40,7 +39,7 @@
                 android:textColor="#3E2723"
                 android:textSize="22sp"
                 android:textStyle="bold"
-                android:text="Hoş Geldin, Ahmet!" />
+                android:text="Hoş Geldin, Nurgül!" />
 
         <TextView
                 android:id="@+id/tvLastLogin"
